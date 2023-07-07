@@ -12,8 +12,12 @@ It is a menu driven program that can perform operations on integer values like:
 8. Display The List
 9. Exit Program
 
-A DSA named namespace is created which have SLLNode and SinglyLinkedList public classes. This is 
-to maintain all DSA related classes used in several data structure implementations. 
+>> What it is and how it is? 
+A DSA named namespace is created which have SLLNode and SinglyLinkedList public classes. This is to maintain all DSA related classes used in several data structure implementations.
+
+>> How to run this project?
+This repo can be cloned and run using "dotnet run" command on CMD.
+
 
 #happyCODING
 
