@@ -96,7 +96,6 @@ namespace DSA
             else
             {
                 Console.WriteLine("Invalid Position");
-                Console.ReadKey();
             }
         }
         public void RotateForward(int pos)
@@ -197,6 +196,34 @@ namespace DSA
             else
             {
                 Console.WriteLine("Out Of Bound");
+            }
+        }
+        public void UpdateNode(int data, int pos)
+        {
+            if (Head != null)
+            {
+                SLLNode temp = Head;
+                if (pos <= Count)
+                {
+
+                    for (int i = 0; i < pos - 1; ++i)
+                    {
+                        // Console.Write($"{i + 1}. {temp.Data}");
+                        Console.ReadKey();
+                        temp = temp.Next;
+                    }
+                    temp.Data = data;
+                    Console.WriteLine("Data updated successfully.....");
+                }
+                else
+                {
+                    Console.WriteLine("List is out of bound");
+                }
+            }
+            else
+            {
+                Console.WriteLine("List Is Empty");
+                Console.ReadKey();
             }
         }
     }

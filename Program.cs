@@ -67,6 +67,7 @@ internal class Program
                     int.TryParse(Console.ReadLine(), out choice);
                     list.InsertInList(data, choice);
 
+                    Console.WriteLine("Press any key to continue...");
                     Console.ReadKey();
                     Console.Clear();
                     break;
@@ -86,9 +87,13 @@ internal class Program
                     Console.Clear();
                     Console.WriteLine($"---[{MenuItems[4]}]---");
 
-                    Console.Write("Enter Position To Delete : ");
+                    Console.Write("Enter Position To Update : ");
                     int.TryParse(Console.ReadLine(), out data);
-                    list.DeletListNode(data);
+
+                    Console.WriteLine("Enter The New Data : ");
+                    int.TryParse(Console.ReadLine(), out choice);
+
+                    list.UpdateNode(choice, data);
 
                     Console.WriteLine("Press any key to continue...");
                     Console.ReadKey();
