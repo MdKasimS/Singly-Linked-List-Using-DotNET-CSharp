@@ -1,6 +1,6 @@
 # Singly-Linked-List-Using-DotNET-CSharp
 
-This is the simplext implementation of Singly Linked List data structure using C# .NET.
+This is the simplest implementation of Singly Linked List data structure using C# .NET.
 It is a menu driven program that can perform operations on integer values like:
 1. Append List
 2. Prepend List
