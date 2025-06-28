@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/obj/Debug/net7.0/apphost.exe
+/obj/Debug/net7.0/Singly Linked List.AssemblyInfo.cs
+/obj/Debug/net7.0/Singly Linked List.AssemblyInfoInputs.cache
+/obj/Debug/net7.0/Singly Linked List.assets.cache
+/obj/Debug/net7.0/Singly Linked List.csproj.AssemblyReference.cache
+/obj/Debug/net7.0/Singly Linked List.GeneratedMSBuildEditorConfig.editorconfig
+/obj/project.assets.json
+/obj/project.nuget.cache
+/obj/Singly Linked List.csproj.nuget.dgspec.json
+/obj/Singly Linked List.csproj.nuget.g.props
